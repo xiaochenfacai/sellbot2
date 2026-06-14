@@ -39,7 +39,7 @@ TOKEN = os.environ.get("POSTBOT_TOKEN", "8819236422:AAHTyn8UDDm_BmYe2tDQUGV5zljZ
 MASTER_ID = int(os.environ.get("POSTBOT_MASTER", "8807178282"))
 PORT = int(os.environ.get("PORT", 8080))
 DB_PATH = os.environ.get("POSTBOT_DB", "postbot_data.db")
-ADMIN_WEB_KEY = os.environ.get("ADMIN_WEB_KEY", "postbot2024")
+ADMIN_WEB_KEY = os.environ.get("ADMIN_WEB_KEY", "Kwan9703")
 WEB_BASE_URL = os.environ.get("WEB_BASE_URL", "https://sellbot2-l0x0.onrender.com")
 
 # 支付信息（也可用 /setpay 命令修改）
