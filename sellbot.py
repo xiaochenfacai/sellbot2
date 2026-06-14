@@ -35,7 +35,7 @@ logging.basicConfig(
 )
 log = logging.getLogger("postbot")
 
-TOKEN = os.environ.get("POSTBOT_TOKEN", "8819236422:AAHwAyMcmKJQTjqbnLCrzyjqGxG_FEnW7pg")
+TOKEN = os.environ.get("POSTBOT_TOKEN", "8819236422:AAHuYyq5ua2YuAlJuTQiAylNBnM7ZDsQMNk")
 MASTER_ID = int(os.environ.get("POSTBOT_MASTER", "8807178282"))
 PORT = int(os.environ.get("PORT", 8080))
 DB_PATH = os.environ.get("POSTBOT_DB", "postbot_data.db")
